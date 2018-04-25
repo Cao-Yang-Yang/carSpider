@@ -18,7 +18,7 @@ class CarspiderPipeline(object):
         print 'spider开始'
         global conn
         conn = MySQLdb.connect(host='localhost', user='root',
-                               passwd='1831117', db='yangyangdb', charset='utf8')
+                               passwd='密码', db='数据库名', charset='utf8')
         global cur
         cur = conn.cursor()
         pass
